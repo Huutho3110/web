@@ -1,0 +1,200 @@
+body {
+            font-family: 'Arial', sans-serif;
+            
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+		.container {
+            display: flex;
+            justify-content: space-between;
+            padding: 35px;
+            background-color: #f5f5f5;
+        }
+        .left-section {
+            width: 50%;
+            padding: 50px;
+        }
+        .left-section h1 {
+            font-size: 100px;
+            margin: 0;
+        }
+        .left-section p {
+            font-size: 18px;
+            color: #666;
+        }
+        .left-section .awards {
+            display: flex;
+            margin-top: 20px;
+        }
+        .left-section .awards img {
+            margin-right: 10px;
+        }
+        .left-section .button {
+            margin-top: 20px;
+        }
+        .left-section .button a {
+            text-decoration: none;
+            color: white;
+            background-color: #ff6347;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+		
+        .right-section {
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .right-section img {
+            width: 300px;
+            height: 250px;
+            margin: 0px;
+        }
+		.right-section .bot-img{
+			width:275px;
+			margin-left:25px;
+		}
+		
+		
+		
+		
+		
+		.header {
+			text-align:center;
+			justify-content: center;
+            margin-top: 20px;
+        }
+        .header img {
+			justify-content: center;
+            width: 300px;
+			height:300px;
+        }
+        .header h1 {
+            font-size: 70px;
+            color: #333333;
+        }
+		
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px auto;
+            max-width: 1700px;
+			background-color: #4CAF50;
+        }
+        .category {
+            background-color: white;
+            color: black;
+            width: 350px;
+            height: 250px;
+            margin: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+		.category:hover{
+			transform:scale(1.05);
+			background-color:lightblue;
+			
+		}
+        .category i {
+            font-size: 24px;
+            margin-bottom: 5px;
+			color:red;
+        }
+        .category p {
+            margin: 0;
+            font-size: 14px;
+        }
+		
+		
+		
+		
+		
+		
+		
+		
+		section{
+			text-align:center;
+			display: flex;
+            justify-content: space-between;
+            align-items: center;
+		}
+		
+		.course-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .course-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 23%;
+            margin-bottom: 20px;
+           
+        }.course-card:hover {
+            transform:scale(1,2);
+           
+        }
+        .course-card img {
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .course-card .content {
+            padding: 15px;
+        }
+        .course-card .content h3 {
+            font-size: 18px;
+            margin: 0 0 10px;
+        }
+        .course-card .content p {
+            font-size: 14px;
+            color: #666;
+            margin: 0 0 10px;
+        }
+        .course-card .content .info {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 14px;
+            color: #666;
+        }
+        .course-card .content .info i {
+            margin-right: 5px;
+        }
+        .course-card .content .info span {
+            display: flex;
+            align-items: center;
+        }
+        .course-card .content .info .time {
+            color: ;
+        }
+        .course-card .content .info .learners {
+            color: ;
+        }
+        .course-card .content .actions {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+     
+        .course-card .content .actions button {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+		}
+		.course-card .content .actions button.more-info {
+            background-color: #ddd;
+            color: black;
+            
+		}

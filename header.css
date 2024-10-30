@@ -1,0 +1,87 @@
+ body {
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+			
+        }
+        .navbar {
+            display: flex;
+			flex-wrap:nowrap;
+			align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+			text-align:center;
+			
+        }
+        .navbar .menu-icon {
+			display: flex;
+			align-items: center;
+            justify-content: space-between;
+            font-size: 24px;
+        }
+        .navbar .nav-links {
+            display: flex;
+			flex-wrap:nowrap;
+			align-items: center;
+            justify-content: space-between;
+            gap: 160px;
+			text-align:center;
+			
+        }
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+            position: relative;
+			text-align: center;
+        }
+        .navbar .nav-links a:hover,
+        .navbar .nav-links a.active {
+            color: #000;
+        }
+        .navbar .nav-links a.active::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: #000;
+        }
+        .navbar .logo {
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+			letter-spacing:6px;
+			
+        }
+		.navbar .logo .gach {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.navbar .logo .gach .duonggach {
+			flex-grow: 1;
+			height: 1px;
+			background-color: black;
+		}
+		.navbar .logo .gach .icon-nho {
+			margin: 0 10px;
+			font-size: 7px;
+			color: black;
+		}
+
+        .navbar .logo span {
+            display: block;
+            font-size: 7px;
+            font-weight: normal;
+        }
+        .navbar .icons {
+            display: flex;
+            gap: 15px;
+        }
+        .navbar .icons i {
+            font-size: 18px;
+            color: #000;
+        }
